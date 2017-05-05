@@ -1,0 +1,39 @@
+
+<form id="865605506">
+<property name="subject" value=""/>
+<property name="name" value="ClaimsValiditycheck-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="1" name="claims_claimAmount" type="InputTextFloat" id="858176787">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;claimAmount (claims)quot;"/>
+<property name="inputBinding" value="claims_in/claimAmount"/>
+<property name="outputBinding" value="claims_out/claimAmount"/>
+<property name="fieldClass" value="java.lang.Float"/>
+</field>
+<field position="3" name="claims_claimValid" type="CheckBox" id="1824369514">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;claimValid (claims)quot;"/>
+<property name="inputBinding" value="claims_in/claimValid"/>
+<property name="outputBinding" value="claims_out/claimValid"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="0" name="claims_customerName" type="InputText" id="1986439973">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;customerName (claims)quot;"/>
+<property name="inputBinding" value="claims_in/customerName"/>
+<property name="outputBinding" value="claims_out/customerName"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="claims_reason" type="InputText" id="965305523">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;reason (claims)quot;"/>
+<property name="inputBinding" value="claims_in/reason"/>
+<property name="outputBinding" value="claims_out/reason"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="claims_in" name="#0000A0" type="dataModelerEntry" outId="claims_out" value="org.zsample.claimssampleprocess.Claims" id="claims"/>
+</form>

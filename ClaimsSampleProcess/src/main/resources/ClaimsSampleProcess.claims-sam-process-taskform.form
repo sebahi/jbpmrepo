@@ -1,0 +1,31 @@
+
+<form id="1743126434">
+<property name="subject" value=""/>
+<property name="name" value="ClaimsSampleProcess.claims-sam-process-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="1" name="claims_claimAmount" type="InputTextFloat" id="1630215280">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;claimAmount (claims)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="claims/claimAmount"/>
+<property name="fieldClass" value="java.lang.Float"/>
+</field>
+<field position="0" name="claims_customerName" type="InputText" id="166223578">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;customerName (claims)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="claims/customerName"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="claims_reason" type="InputText" id="921998495">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;reason (claims)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="claims/reason"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="" name="#0000A0" type="dataModelerEntry" outId="claims" value="org.zsample.claimssampleprocess.Claims" id="claims"/>
+</form>
